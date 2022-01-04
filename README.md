@@ -14,4 +14,4 @@ Project Description: With the help of bikeshare.py bikeshare data from the citie
 Needed data file: chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Special Thanks to the Team from Udacity 
