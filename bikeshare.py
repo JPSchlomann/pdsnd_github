@@ -8,7 +8,12 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 def get_correct_input(user_input, expected_inputs):
-    """ handling of unexpected or wrong user inputs """
+    """ handling of unexpected or wrong user inputs.
+
+    Args:
+        user_input - actual user input
+        expected_inputs - expected/allowed user input 
+    """
     user_input = user_input.lower().strip()
     while True:
         if user_input in expected_inputs:
