@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+
 def get_correct_input(user_input, expected_inputs):
     """ handling of unexpected or wrong user inputs """
     user_input = user_input.lower().strip()
@@ -184,6 +185,7 @@ def user_stats(df):
     print('-'*40)
 
 
+#Main function
 def main():
     print('\nHello! Let\'s explore some US bikeshare data!')
     while True:
@@ -209,7 +211,7 @@ def main():
             else:
                 restart = input('\nWould you like to restart? Enter yes or no: ')
                 restart = get_correct_input(restart, ['yes','no'])
-                if restart == 'yes':
+                if restart == 'no':
                     break
         else:
             print('\nSorry, we don\'t have data for your filter settings. \nPlease try again')
