@@ -5,10 +5,10 @@ This project was created on 04.01.2022
 Readme.md was created on 04.01.2022
 
 ### Project Title
-Project Title: Explore Bikeshare Data 
+Project Title: Explore Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Project Description: With the help of bikeshare.py bikeshare data from the cities of New York, Washington and Chicago can be explored. Some basic statistical information can be derived for each city. The script interacts with the use via the command line. 
 
 ### Files used
 Include the files used
